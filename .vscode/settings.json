@@ -1,0 +1,30 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "cmsc508.com",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "CMSC508 Server (HW5)",
+            "database": "202310_users_munkhgerek",
+            "username": "munkhgerek",
+            "password": "202310_users_munkhgerek"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "cmsc508.com",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "HR-CMSC508",
+            "database": "202310_hr_munkhgerek",
+            "username": "munkhgerek",
+            "password": "202310_users_munkhgerek"
+        }
+    ]
+}

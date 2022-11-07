@@ -4,7 +4,6 @@
 -- store your drop table statements in this block
     drop table if exists raw_country;
 
-
 -- task 2 - Create "raw_country" table
 -- label the columns using the following schema:
 -- Assign appropriate data types.
@@ -16,9 +15,9 @@
         country_short_name varchar(255),
         country_full_name varchar(255),
         country_abbr varchar(255),
-        country_region,
-        country_income_category,
-        country_wb_abbr,
+        country_region varchar(255),
+        country_income_category varchar(255),
+        country_wb_abbr varchar(255),
         country_count int, 
         primary key(country_code)
     );
